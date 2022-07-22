@@ -1,4 +1,4 @@
-![Image text](https://github.com/Grulla-Software/search-react/blob/main/img/imgHeading.png)
+![Image text](https://github.com/Grulla-Software/avatar-reactjs/blob/main/img/imgHeading.png)
 
 # search-reactjs 🚀
 

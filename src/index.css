@@ -1,0 +1,12 @@
+.avatarImg {}
+.avatarName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatarNameContent {
+  font-style: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+}

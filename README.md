@@ -20,76 +20,359 @@ Here is an example of how to implement the component:
 ```jsx
 import logo from './logo.svg';
 import './App.css';
-import SearchReact from 'search-reactjs';
+import AvatarReactjs from 'avatar-reactjs';
 function App() {
-  const users = [
-    {
-      name:'marvin', 
-      home:{
-        location:'Heredia',
-        local:{
-          number: 3
-        }
-      }
-    },
-    { 
-      name:'Jose', 
-      home:{
-        location:'Puntarenas',
-        local:{
-          number: 5
-        }
-      }
-    },
-    { 
-      name:'Mario', 
-      home:{
-        location:'Cartago',
-        local:{
-          number: 1
-        }
-      }
-    },
-    { 
-      name:'Luna', 
-      home:{
-        location:'San Jose',
-        local:{
-          number: 2
-        }
-      }
-    },
-  ];
-  let callBack = (result)=>{
-    console.log('result',result);
-  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Search Component</h1>
+        <h1>Avatar Component</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>search-react</h2>
+        <h2>avatar-reactjs</h2>
+        <div className="container-avatarReactjs">
+          <div className="example-avatarReactjs">
+            <AvatarReactjs
+              name={'Marvin Calvo'}
+              fontSize={'medium'}
+              backgroundColor={'blue'}
+              fontColor={'azure'}
+              width={'50px'}
+              height={'50px'}
+              borderRadius={'5%'}
+            />
+            <AvatarReactjs
+              name={'Antonio Luna'}
+              fontSize={'x-large'}
+              backgroundColor={'blue'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'5%'}
+            />
+            <AvatarReactjs
+              name={'Fabiola Gonzalez'}
+              fontSize={'x-large'}
+              backgroundColor={'blue'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'5%'}
+            />
+            <AvatarReactjs
+              name={'Bill Gates'}
+              fontSize={'x-large'}
+              backgroundColor={'blue'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'5%'}
+            />
+            <AvatarReactjs
+              name={'Albert Einstein'}
+              fontSize={'x-large'}
+              backgroundColor={'blue'}
+              fontColor={'azure'}
+              width={'100px'}
+              height={'100px'}
+              borderRadius={'5%'}
+            />
+            <AvatarReactjs
+              name={'Isaac Newton'}
+              fontSize={'xx-large'}
+              backgroundColor={'blue'}
+              fontColor={'azure'}
+              width={'120px'}
+              height={'120px'}
+              borderRadius={'5%'}
+            />
+          </div>
+          <div className="example-avatarReactjs">
+            <AvatarReactjs
+              name={'Marvin Calvo'}
+              fontSize={'medium'}
+              backgroundColor={'white'}
+              fontColor={'blue'}
+              width={'50px'}
+              height={'50px'}
+              borderRadius={'10%'}
+            />
+            <AvatarReactjs
+              name={'Antonio Luna'}
+              fontSize={'x-large'}
+              backgroundColor={'white'}
+              fontColor={'blue'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'10%'}
+            />
+            <AvatarReactjs
+              //src={'img/avatar5.jpg'}
+              name={'Fabiola Gonzalez'}
+              fontSize={'x-large'}
+              backgroundColor={'white'}
+              fontColor={'blue'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'10%'}
+            />
+            <AvatarReactjs
+              name={'Bill Gates'}
+              fontSize={'x-large'}
+              backgroundColor={'white'}
+              fontColor={'blue'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'10%'}
+            />
+            <AvatarReactjs
+              name={'Albert Einstein'}
+              fontSize={'x-large'}
+              backgroundColor={'white'}
+              fontColor={'blue'}
+              width={'100px'}
+              height={'100px'}
+              borderRadius={'10%'}
+            />
+            <AvatarReactjs
+              name={'Isaac Newton'}
+              fontSize={'xx-large'}
+              backgroundColor={'white'}
+              fontColor={'blue'}
+              width={'120px'}
+              height={'120px'}
+              borderRadius={'10%'}
+            />
+          </div>
+          <div className="example-avatarReactjs">
+            <AvatarReactjs
+              name={'Marvin Calvo'}
+              fontSize={'medium'}
+              backgroundColor={'black'}
+              fontColor={'azure'}
+              width={'50px'}
+              height={'50px'}
+              borderRadius={'20%'}
+            />
+            <AvatarReactjs
+              name={'Antonio Luna'}
+              fontSize={'x-large'}
+              backgroundColor={'black'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'20%'}
+            />
+            <AvatarReactjs
+              //src={'img/avatar5.jpg'}
+              name={'Fabiola Gonzalez'}
+              fontSize={'x-large'}
+              backgroundColor={'black'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'20%'}
+            />
+            <AvatarReactjs
+              name={'Bill Gates'}
+              fontSize={'x-large'}
+              backgroundColor={'black'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'20%'}
+            />
+            <AvatarReactjs
+              name={'Albert Einstein'}
+              fontSize={'x-large'}
+              backgroundColor={'black'}
+              fontColor={'azure'}
+              width={'100px'}
+              height={'100px'}
+              borderRadius={'20%'}
+            />
+            <AvatarReactjs
+              name={'Isaac Newton'}
+              fontSize={'xx-large'}
+              backgroundColor={'black'}
+              fontColor={'azure'}
+              width={'120px'}
+              height={'120px'}
+              borderRadius={'20%'}
+            />
+          </div>
+          <div className="example-avatarReactjs">
+            <AvatarReactjs
+              name={'Marvin Calvo'}
+              fontSize={'medium'}
+              backgroundColor={'red'}
+              fontColor={'black'}
+              width={'50px'}
+              height={'50px'}
+              borderRadius={'30%'}
+            />
+            <AvatarReactjs
+              name={'Antonio Luna'}
+              fontSize={'x-large'}
+              backgroundColor={'red'}
+              fontColor={'black'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'30%'}
+            />
+            <AvatarReactjs
+              //src={'img/avatar5.jpg'}
+              name={'Fabiola Gonzalez'}
+              fontSize={'x-large'}
+              backgroundColor={'red'}
+              fontColor={'black'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'30%'}
+            />
+            <AvatarReactjs
+              name={'Bill Gates'}
+              fontSize={'x-large'}
+              backgroundColor={'red'}
+              fontColor={'black'}
+              width={'70px'}
+              height={'70px'}
+              borderRadius={'30%'}
+            />
+            <AvatarReactjs
+              name={'Albert Einstein'}
+              fontSize={'x-large'}
+              backgroundColor={'red'}
+              fontColor={'black'}
+              width={'100px'}
+              height={'100px'}
+              borderRadius={'30%'}
+            />
+            <AvatarReactjs
+              name={'Isaac Newton'}
+              fontSize={'xx-large'}
+              backgroundColor={'red'}
+              fontColor={'black'}
+              width={'120px'}
+              height={'120px'}
+              borderRadius={'30%'}
+            />
+          </div>
+          <div className="example-avatarReactjs">
+            <AvatarReactjs
+              name={'Marvin Calvo'}
+              fontSize={'medium'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'50px'}
+              height={'50px'}
+            />
+            <AvatarReactjs
+              name={'Antonio Luna'}
+              fontSize={'x-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+            />
+            <AvatarReactjs
+              //src={'img/avatar5.jpg'}
+              name={'Fabiola Gonzalez'}
+              fontSize={'x-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+            />
+            <AvatarReactjs
+              name={'Bill Gates'}
+              fontSize={'x-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+            />
+            <AvatarReactjs
+              name={'Albert Einstein'}
+              fontSize={'x-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'100px'}
+              height={'100px'}
+            />
+            <AvatarReactjs
+              name={'Isaac Newton'}
+              fontSize={'xx-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'120px'}
+              height={'120px'}
+            />
+          </div>
+          <div className="example-avatarReactjs">
+            <AvatarReactjs
+              src={'img/avatar7.jpg'}
+              name={'Marvin Calvo'}
+              fontSize={'medium'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'50px'}
+              height={'50px'}
+            />
+            <AvatarReactjs
+              src={'img/avatar3.jpg'}
+              name={'Antonio Luna'}
+              fontSize={'x-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+            />
+            <AvatarReactjs
+              src={'img/avatar2.jpg'}
+              name={'Fabiola Gonzalez'}
+              fontSize={'x-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+            />
+            <AvatarReactjs
+              src={'img/avatar4.jpg'}
+              name={'Bill Gates'}
+              fontSize={'x-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'70px'}
+              height={'70px'}
+            />
+            <AvatarReactjs
+              src={'img/avatar5.jpg'}
+              name={'Albert Einstein'}
+              fontSize={'x-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'100px'}
+              height={'100px'}
+            />
+            <AvatarReactjs
+              src={'img/avatar6.jpg'}
+              name={'Isaac Newton'}
+              fontSize={'xx-large'}
+              backgroundColor={'green'}
+              fontColor={'azure'}
+              width={'120px'}
+              height={'120px'}
+            />
+          </div>
+        </div>
+      
         <br/>
-        <SearchReact
-          listObjects={users}
-          btnName={'Search'} 
-          placeholder={"Search by name"}
-          borderRadius={'2px'}
-          fontSize={'17px'}
-          searchCriteria={'name'}
-          btnHoverBackground={'red'}
-          btnHoverTextColor={''}
-          hideButton={false}
-          callBack={callBack}
-        />
       </header>
-      
-      
     </div>
   );
 }
-
 export default App;
+
 ```
 
 ### Props of styles 📦

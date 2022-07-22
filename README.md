@@ -1,10 +1,9 @@
 ![Image text](https://github.com/Grulla-Software/avatar-reactjs/blob/main/img/imgHeading.png)
 
-# search-reactjs 🚀
+# avatar-reactjs 🚀
 
-Search-reactjs component allows the search or filter of objects by specifying a search criteria according to the properties of the object, providing flexibility to the developer at the time of implementation and allowing the fulfillment of the requested requirements.
-> The component displays an input text where the user enters the value they want to search for, it also displays the button to start the search action.
-This component also allows to perform the search automatically while the user enters the text in the input.
+Avatar-reactjs is an ideal component to display the user's profile image, it's light, elegant and very easy. This component speeds up software development by creating the user profile, as it can be reused over and over again. It is fully customizable so it allows you to meet any requirement.
+> This displays the user's profile picture or first and last name initials.
 
 ## Installing 🔧
 To install the component use the Node Package Manager (npm).
@@ -22,7 +21,6 @@ import logo from './logo.svg';
 import './App.css';
 import AvatarReactjs from 'avatar-reactjs';
 function App() {
-
   return (
     <div className="App">
       <header className="App-header">
@@ -106,7 +104,6 @@ function App() {
               borderRadius={'10%'}
             />
             <AvatarReactjs
-              //src={'img/avatar5.jpg'}
               name={'Fabiola Gonzalez'}
               fontSize={'x-large'}
               backgroundColor={'white'}
@@ -163,7 +160,6 @@ function App() {
               borderRadius={'20%'}
             />
             <AvatarReactjs
-              //src={'img/avatar5.jpg'}
               name={'Fabiola Gonzalez'}
               fontSize={'x-large'}
               backgroundColor={'black'}
@@ -220,7 +216,6 @@ function App() {
               borderRadius={'30%'}
             />
             <AvatarReactjs
-              //src={'img/avatar5.jpg'}
               name={'Fabiola Gonzalez'}
               fontSize={'x-large'}
               backgroundColor={'red'}
@@ -275,7 +270,6 @@ function App() {
               height={'70px'}
             />
             <AvatarReactjs
-              //src={'img/avatar5.jpg'}
               name={'Fabiola Gonzalez'}
               fontSize={'x-large'}
               backgroundColor={'green'}

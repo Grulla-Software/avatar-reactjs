@@ -9,7 +9,7 @@ Avatar-reactjs is an ideal component to display the user's profile image, it's l
 To install the component use the Node Package Manager (npm).
 You must open the command console at the root of your project and execute the command:
 ```
- npm install search-reactjs --save 
+ npm install avatar-reactjs --save 
 ```
 
 ## Usage 🛠️
@@ -375,35 +375,25 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 **Required props are marked with `*`.**
 
-| Name         | Type     | Default            | Description                                                                        |
-| ------------ | -------- | -------------------| ---------------------------------------------------------------------------------- |
-| `inputColor`  | `string`| `blue`             | Indicates the text color for the `input` text element.                             |
-| `inputWidth`  | `string`| `200px`            | Indicates the width for the `input` text element.                                  |
-| `placeholder` | `string`| `Serach`           | Indicates the placeholder for the `input` text element.                            |
-| `height`      | `string`| `30px`             | Indicates the height for the `input` text element and the `button` element.        |
-| `borderRadius`| `string`| `5px`              | Indicates the border radius for the `input` text element and the `button` element. |
-| `fontSize`    | `string`| ` `                | Indicates the text size for the `input` text element and the `button` element.     |
-| `btnColor`    | `string`| `black`            | Indicates the text color for the `button` element.                                 |
-| `btnWidth`    | `string`| `100px`            | Indicates the width for the `button` element.                                      |
-| `btnBorder`   | `string`| `2px solid #61DAFB`| Indicates the border for the `button` element.                                     |
-| `btnHoverBackground`|`string`| `#3dbadc`     | Indicates the background color for hover the `button` element.                     |
-| `btnHoverTextColor` | `string`| `#ffff`      | Indicates the text color for hover the `button` element.                           |
-| `btnName`     | `string`| `Serach`           | Indicates the name for the `button` element.                                       |
+| Name             | Type   | Default   | Description                                            |
+| ---------------- | ------ | --------- | ------------------------------------------------------ |
+| `borderRadius`   |`string`| `50%`     | Indicates the border radius of the avatar component.   |
+| `backgroundColor`|`string`| `red`     | Indicates the background color of the avatar component.|
+| `fontColor`      |`string`| `white`   | Indicates the text color of the avatar component.      |
+| `height`         |`string`| `100px`   | Indicates the height of the avatar component.          |
+| `width`          |`string`| `100px`   | Indicates the width of the avatar component.           |
+| `fontSize`       |`string`| `xx-large`| Indicates the text size of the avatar component.       |
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **inputColor**: Use this prop for  indicate the text color for the input text element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
-- **inputWidth**: Use this prop for  indicate the width of the input text. Indicate this as a string and in pixel format("200px") or percentage format("10%").
-- **height**: Use this prop for indicate the height of the input text and the button element. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
-- **borderRadius**: Use this prop for  indicate the border radius of the input text and button elements. Specify this as a string and in pixel format ("5px") or percentage format ("10%").
-- **fontSize**: Use this prop for indicate the size of the text for the input text and button elements. Specify this as a string and in pixel format ("20px") or REM format ("1rem") or EM format ("1em").
-- **btnColor**: Use this prop for indicate the color of the text for the button element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
-- **btnWidth**: Use this prop for indicate the width of the button element. Specify this as a string and in pixel format ("200px") or percentage format ("10%")..
-- **btnBorder**:Use this property to indicate the border size, border type, and border color for the button element. You can express these values ​​in a string and in the same format as specified in css3, for example: "2px solid #61DAFB".
-- **btnHoverBackground**: Use this prop to indicate the background of the button element when hover. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("blue").
-- **btnHoverTextColor**: Use this prop to indicate the color of the button element's text on hover. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("blue").
+- **borderRadius**: Use this prop for indicate the border radius of the avatar component. This value is indicated as a string and percentage format for example: "10%" or "50%".
+- **backgroundColor**: Use this prop for indicate the background color of the avatar component. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
+- **fontColor**: Use this prop for indicate the text color of the avatar component. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
+- **height**: Use this prop for indicate the height of the avatar component. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
+- **width**: Use this prop for indicate the width of the avatar component. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
+- **fontSize**: Use this prop to indicate the size of the text for the avatar component. Specify this as a string and in pixel format ("20px") or REM format ("1rem") or EM format ("1em") or the name of size("smaller", "medium", "large", " larger", "x-large", "xx-large").
 
 ### Props for functionality 📦
 
@@ -411,50 +401,19 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 **Required props are marked with `*`.**
 
-| Name               | Type      | Default | Description                                                                        |
-| ------------------ | --------- | ------- | ---------------------------------------------------------------------------------- |
-| `hideButton`       | `bool`    | `false` | Indicates if the search `button` will be shown.                                    |
-| `searchCriteria`\* | `string`  | ` `     | Specify the search criteria.                                                       |
-| `listObjects`\*    | `array`   | ` `     | `Array` of objects to be filtered.                                                 |
-| `callBack`\*       | `function`| ` `     | `Function` that will receive  `array` of filtered objects.                      |
+| Name     | Type    | Default | Description                                                       |
+| -------- | ------- | ------- | ----------------------------------------------------------------- |
+| `src`    | `string`| ` `     | Indicates the URL of image that will display the avatar component.|
+| `name`\* | `string`| `😀`   | Indicates the name that the avatar component will display.        |
+
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **hideButton**: Use this prop for indicate whether to display the search button. You must indicate this value as a boolean. By default the value is false. By specifying the value as true, the search button will be hidden and the search will be done automatically when the user types the text in the input text element.
-- **listObjects**: Use this prop to specify the list of objects. You must specify this as a list of objects in json format.
-- **callBack**: Use this prop to specify the callback function where the result of the data filtering will be sent. The specified function must receive a parameter.
-- **searchCriteria**: Use this prop to indicate the search criteria on the list of objects. This value is indicated as a string.To specify a search criteria on nested objects, you can do it using the curly brackets, for example:
-```jsx
-//List objects
-  const users = [
-    {
-      name:'marvin',
-      home:{
-        location:'Heredia',
-        local:{
-          number: 3
-        }
-      }
-    },
-    {
-      name:'Jose',
-      home:{
-        location:'Puntarenas',
-        local:{
-          number: 5
-        }
-      }
-    }
-  ]
-//Possible criteria
-<SearchReact listObjects={users} searchCriteria={'name'} />
-or
-<SearchReact listObjects={users} searchCriteria={'home.location'} />
-or
-<SearchReact listObjects={users} searchCriteria={'home.local.number'} />
-```
+- **src**: Use this prop to indicate the URL of the image that the avatar component will display. This must be indicated as a string.
+- **name**: Use this property to indicate the name that the avatar component will display. This must be indicated as a string.
+
 ## Authors ✒️
 
 People who helped build the project from its inception

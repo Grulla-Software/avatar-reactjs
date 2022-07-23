@@ -4,7 +4,7 @@ interface Props {
   src?: string,
   name: string,
   backgroundColor?: string
-  fontSize: 'smaller'|'medium'|'large'|'larger'|'x-large'|'xx-large',
+  fontSize?: 'smaller'|'medium'|'large'|'larger'|'x-large'|'xx-large',
   fontColor?: string,
   width?: string,
   height?: string,

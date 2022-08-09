@@ -1,3 +1,8 @@
+[![npm](https://badgen.net/npm/v/avatar-reactjs)](https://www.npmjs.com/package/avatar-reactjs) 
+[![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/avatar-reactjs/blob/main/LICENSE.md) 
+[![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/avatar-reactjs/blob/main/LICENSE.md) 
+[![GitHub package version](https://img.shields.io/badge/version-1.0.4-green.svg)](https://github.com/Grulla-Software/avatar-reactjs)
+
 ![Image text](https://github.com/Grulla-Software/avatar-reactjs/blob/main/img/imgHeading.png)
 
 # avatar-reactjs 🚀
@@ -377,23 +382,23 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 | Name             | Type   | Default   | Description                                            |
 | ---------------- | ------ | --------- | ------------------------------------------------------ |
-| `borderRadius`   |`string`| `50%`     | Indicates the border radius of the avatar component.   |
-| `backgroundColor`|`string`| `red`     | Indicates the background color of the avatar component.|
-| `fontColor`      |`string`| `white`   | Indicates the text color of the avatar component.      |
-| `height`         |`string`| `100px`   | Indicates the height of the avatar component.          |
-| `width`          |`string`| `100px`   | Indicates the width of the avatar component.           |
-| `fontSize`       |`string`| `xx-large`| Indicates the text size of the avatar component.       |
+| `borderRadius`   |`string`| `50%`     | Indicates the border radius of avatar component.   |
+| `backgroundColor`|`string`| `red`     | Indicates the background color of avatar component.|
+| `fontColor`      |`string`| `white`   | Indicates the text color of avatar component.      |
+| `height`         |`string`| `100px`   | Indicates the height of avatar component.          |
+| `width`          |`string`| `100px`   | Indicates the width of avatar component.           |
+| `fontSize`       |`string`| `xx-large`| Indicates the text size of avatar component.       |
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **borderRadius**: Use this prop for indicate the border radius of the avatar component. This value is indicated as a string and percentage format for example: "10%" or "50%".
-- **backgroundColor**: Use this prop for indicate the background color of the avatar component. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
-- **fontColor**: Use this prop for indicate the text color of the avatar component. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
-- **height**: Use this prop for indicate the height of the avatar component. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
-- **width**: Use this prop for indicate the width of the avatar component. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
-- **fontSize**: Use this prop to indicate the size of the text for the avatar component. Specify this as a string and in pixel format ("20px") or REM format ("1rem") or EM format ("1em") or the name of size("smaller", "medium", "large", " larger", "x-large", "xx-large").
+- **borderRadius**: Use this prop for indicate the border radius of the avatar component. This value is indicated as a `string` and percentage format for example: "10%" or "50%".
+- **backgroundColor**: Use this prop for indicate the background color of the avatar component. You can specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
+- **fontColor**: Use this prop for indicate the text color of the avatar component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
+- **height**: Use this prop for indicate the height of avatar component. Specify this as a `string` and in pixel format ("30px") or percentage format ("10%").
+- **width**: Use this prop for indicate the width of avatar component. Specify this as a `string` and in pixel format ("30px") or percentage format ("10%").
+- **fontSize**: Use this prop to indicate the size of text for the avatar component. Specify this as a `string` and in pixel format ("20px") or REM format ("1rem") or EM format ("1em") or the name of size("smaller", "medium", "large", " larger", "x-large", "xx-large").
 
 ### Props for functionality 📦
 
@@ -411,8 +416,8 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 Additional information about using the component pros.
 
-- **src**: Use this prop to indicate the URL of the image that the avatar component will display. This must be indicated as a string.
-- **name**: Use this property to indicate the name that the avatar component will display. This must be indicated as a string.
+- **src**: Use this prop to indicate the URL of the image that the avatar component will display. This must be indicated as a `string`.
+- **name**: Use this property to indicate the name that the avatar component will display. This must be indicated as a `string`.
 
 ## Authors ✒️
 

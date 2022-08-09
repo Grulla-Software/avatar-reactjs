@@ -1,7 +1,7 @@
 {
   "name": "avatar-reactjs",
   "version": "1.0.3",
-  "description": "plantilla",
+  "description": "Avatar Component",
   "main": "build/index.js",
   "scripts": {
     "clean": "rm build/index.js",

@@ -17,7 +17,7 @@ You must open the command console at the root of your project and execute the co
  npm install avatar-reactjs --save 
 ```
 
-## Usage 🛠️
+## Demo 💻
 
 [Click me to go to the demo on codeSandbox!](https://codesandbox.io/embed/avatar-reactjs-lj7dh9?fontsize=14&hidenavigation=1&theme=dark)
 

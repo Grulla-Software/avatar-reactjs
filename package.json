@@ -1,6 +1,6 @@
 {
   "name": "avatar-reactjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Avatar Component",
   "main": "build/index.js",
   "scripts": {

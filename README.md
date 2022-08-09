@@ -1,7 +1,7 @@
 [![npm](https://badgen.net/npm/v/avatar-reactjs)](https://www.npmjs.com/package/avatar-reactjs) 
 [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/avatar-reactjs/blob/main/LICENSE.md)
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/avatar-reactjs/blob/main/LICENSE.md)
-[![GitHub package version](https://img.shields.io/badge/version-1.0.4-green.svg)](https://github.com/Grulla-Software/avatar-reactjs)
+[![GitHub package version](https://img.shields.io/badge/version-1.0.5-green.svg)](https://github.com/Grulla-Software/avatar-reactjs)
 
 ![Image text](https://github.com/Grulla-Software/avatar-reactjs/blob/main/img/imgHeading.png)
 
